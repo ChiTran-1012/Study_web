@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       {/* <Header /> */}
-      <section className="bg-gradient-to-b from-green-50 to-white py-20 px-4 min-h-[70vh]">
+      <section className="bg-gradient-to-r from-green-100 to-green-300 py-20 px-4 min-h-[70vh]">
         <div className="max-w-5xl mx-auto text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-extrabold text-green-800 mb-6">
             About <span className="text-green-600">StudyWeb</span>

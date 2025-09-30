@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({ onScrollToCourses }) => {
   return (
 <section className="flex flex-col md:flex-row items-center justify-center gap-12 min-h-[80vh] px-52 py-8 bg-gradient-to-b from-white via-white to-green-100">      
   <header className="flex-1 space-y-8 text-center md:text-left">
@@ -11,7 +11,8 @@ const Hero = () => {
         <p className="text-lg md:text-2xl text-gray-700 max-w-xl mx-auto md:mx-0">
           Join our community of learners and start your journey today.
         </p>
-        <button className="bg-[#bce955] text-black rounded-full px-8 py-4 text-lg font-semibold shadow-lg hover:bg-[#a0d94a] transition">
+        <button className="bg-[#bce955] text-black rounded-full px-8 py-4 text-lg font-semibold shadow-lg hover:bg-[#a0d94a] transition"
+        onClick={onScrollToCourses}>
           Get Started
         </button>
       </header>

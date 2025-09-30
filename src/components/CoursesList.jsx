@@ -14,7 +14,7 @@ const CoursesList = () => {
       : courses.filter((course) => course.category === selectedMajor);
 
   return (
-    <section className="py-24 px-4 bg-gradient-to-b from-green-50 to-green-100 min-h-[60vh]">
+    <section className="py-24 px-4 bg-gradient-to-r from-green-100 to-green-300 min-h-[60vh]">
       <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-14 text-green-900">
         Our Courses
       </h2>

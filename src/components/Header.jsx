@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="sticky top-4 z-50 flex justify-center">
+    <header className="sticky top-7 z-50 flex justify-center">
       <nav className="flex justify-between items-center w-full max-w-6xl px-6 py-3
         rounded-full shadow-lg
         bg-white/70 backdrop-blur

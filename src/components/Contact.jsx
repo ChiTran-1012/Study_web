@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-24 px-4 bg-gradient-to-b from-green-100 to-green-50 min-h-screen">
+    <section className="py-24 px-4 bg-gradient-to-r from-green-100 to-green-300 min-h-screen">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         {/* Left: Info */}
         <div className="flex flex-col justify-center">
