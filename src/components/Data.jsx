@@ -6,6 +6,7 @@ const courses = [
     image:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
     famous: true,
+    category: "Web Development",
   },
   {
     title: "Data Science",
@@ -14,6 +15,7 @@ const courses = [
     image:
       "https://www.indianext.co.in/wp-content/uploads/2022/12/What-is-data-science-2.jpg",
     famous: true,
+    category: "Data & AI",
   },
   {
     title: "UI/UX Design",
@@ -22,6 +24,7 @@ const courses = [
     image:
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUbzM6b_nbsSuHIdHYoLQl03pLnpmqJGJip4WdpT27GiU5amQy5S1C-DXKScnvsbkjdGCvoGbfaN34omLxLRRaH_moqQaYq0ZwE1-67CzWb_vrhK-ppfOiYQqBh2jEWQquaUs4lho28BvXkQ6y4UG-ZLe3J3fcD0oVq0Ax1ipEvhq6EVqg8gPrbeHMlw/s3000/16683353_5757453.jpg",
     famous: false,
+    category: "Design",
   },
   {
     title: "Mobile App Development",
@@ -30,6 +33,7 @@ const courses = [
     image:
       "https://techworkflow.com/wp-content/uploads/2023/10/mobile-development-services.png",
     famous: false,
+    category: "Mobile Development",
   },
   {
     title: "Cloud Computing",
@@ -38,6 +42,7 @@ const courses = [
     image:
       "https://cdn.axalize.vn/media/content/images/cloud-computing.jpg",
     famous: false,
+    category: "Cloud & DevOps",
   },
   {
     title: "Cybersecurity",
@@ -46,6 +51,7 @@ const courses = [
     image:
       "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=400&q=80",
     famous: false,
+    category: "Security",
   },
   {
     title: "Digital Marketing",
@@ -54,6 +60,7 @@ const courses = [
     image:
       "https://tse4.mm.bing.net/th/id/OIP.xMlvIA1S6H3JCDDfHJrN6QHaE3?rs=1&pid=ImgDetMain&o=7&rm=3",
     famous: false,
+    category: "Marketing",
   },
   {
     title: "Artificial Intelligence",
@@ -62,6 +69,7 @@ const courses = [
     image:
       "https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg",
     famous: true,
+    category: "Data & AI",
   },
   {
     title: "Project Management",
@@ -70,6 +78,7 @@ const courses = [
     image:
       "https://tse4.mm.bing.net/th/id/OIP.MynpmDcYWnay-jH7nX1U9QHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
     famous: false,
+    category: "Business & Management",
   },
   {
     title: "Business Analytics",
@@ -78,6 +87,8 @@ const courses = [
     image:
       "https://tse3.mm.bing.net/th/id/OIP.OIHSNrV7ZMZ8UpTU1dkT7AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
     famous: false,
+    category: "Business & Management",
   },
 ];
-export default courses
+
+export default courses;
