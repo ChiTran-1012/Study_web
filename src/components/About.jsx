@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { CheckCircle, Users, Laptop, Clock } from "lucide-react";
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -58,12 +59,12 @@ const About = () => {
           <p className="text-lg text-gray-700 mb-4">
             Join <span className="font-semibold text-green-700">StudyWeb</span> today and start your journey to success!
           </p>
-          <a
-            href="/courses"
+          <Link
+            to="/courses-list"
             className="px-6 py-3 bg-green-600 text-white rounded-xl shadow-md hover:bg-green-700 transition"
           >
             Explore Courses
-          </a>
+          </Link>
         </div>
       </section>
     </>

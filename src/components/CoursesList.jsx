@@ -14,7 +14,7 @@ const CoursesList = () => {
       : courses.filter((course) => course.category === selectedMajor);
 
   return (
-    <section className="py-24 px-4 bg-gradient-to-r from-green-100 to-green-300 min-h-[60vh]">
+    <section className="py-24 px-4 sm:px-8 md:px-12 bg-gradient-to-r from-green-100 to-green-300 min-h-[60vh]">
       <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-14 text-green-900">
         Our Courses
       </h2>
@@ -24,23 +24,24 @@ const CoursesList = () => {
         <select
           value={selectedMajor}
           onChange={(e) => setSelectedMajor(e.target.value)}
-          className="px-4 py-2 rounded-lg border border-green-300 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400 text-green-800 font-medium"
+          className="px-4 py-2 rounded-lg border border-green-300 bg-white shadow-sm 
+                     focus:outline-none focus:ring-2 focus:ring-green-400 
+                     text-green-800 font-medium cursor-pointer"
         >
           {categories.map((major) => (
             <option
               key={major}
               value={major}
-              className="capitalize py-2 px-4 text-gray-700 bg-white hover:bg-green-100"
+              className="capitalize py-2 px-4 text-gray-700"
             >
               {major}
             </option>
           ))}
         </select>
-
       </div>
 
       {/* Courses grid */}
-      <div className="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
+      <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
         {filteredCourses.map((course, idx) => (
           <CoursesCard
             key={idx}
