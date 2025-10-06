@@ -10,7 +10,9 @@ const CourseCard = ({ title, description, image }) => {
       />
       <h3 className="text-xl font-semibold mb-2 text-green-900">{title}</h3>
       <p className="text-gray-700 text-center mb-4">{description}</p>
-      <button className="mt-auto bg-[#bce955] text-black px-6 py-2 rounded-full font-semibold shadow hover:bg-[#a0d94a] transition">
+      <button className="mt-auto bg-[#bce955] text-black px-6 py-2 rounded-full font-semibold shadow hover:bg-[#a0d94a] transition"
+        onClick={() => window.location.href = '/courses-detail'}
+      >
         Enroll Now
       </button>
     </div>

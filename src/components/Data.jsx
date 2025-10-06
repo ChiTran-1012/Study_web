@@ -1,5 +1,6 @@
 const courses = [
   {
+    id: 1,
     title: "Web Development",
     description:
       "Learn HTML, CSS, JavaScript, and modern frameworks to build responsive websites.",
@@ -9,6 +10,7 @@ const courses = [
     category: "Web Development",
   },
   {
+    id: 2,
     title: "Data Science",
     description:
       "Master data analysis, visualization, and machine learning with Python.",
@@ -18,6 +20,7 @@ const courses = [
     category: "Data & AI",
   },
   {
+    id: 3,
     title: "UI/UX Design",
     description:
       "Design beautiful and user-friendly interfaces with Figma and Adobe XD.",
@@ -27,6 +30,7 @@ const courses = [
     category: "Design",
   },
   {
+    id: 4,
     title: "Mobile App Development",
     description:
       "Build cross-platform mobile apps using React Native and Flutter.",
@@ -36,15 +40,16 @@ const courses = [
     category: "Mobile Development",
   },
   {
+    id: 5,
     title: "Cloud Computing",
     description:
       "Understand cloud services and deploy scalable applications on AWS and Azure.",
-    image:
-      "https://cdn.axalize.vn/media/content/images/cloud-computing.jpg",
+    image: "https://cdn.axalize.vn/media/content/images/cloud-computing.jpg",
     famous: false,
     category: "Cloud & DevOps",
   },
   {
+    id: 6,
     title: "Cybersecurity",
     description:
       "Learn the fundamentals of cybersecurity and how to protect digital assets.",
@@ -54,6 +59,7 @@ const courses = [
     category: "Security",
   },
   {
+    id: 7,
     title: "Digital Marketing",
     description:
       "Master SEO, SEM, and social media marketing to grow your business online.",
@@ -63,6 +69,7 @@ const courses = [
     category: "Marketing",
   },
   {
+    id: 8,
     title: "Artificial Intelligence",
     description:
       "Explore AI concepts, neural networks, and deep learning applications.",
@@ -72,6 +79,7 @@ const courses = [
     category: "Data & AI",
   },
   {
+    id: 9,
     title: "Project Management",
     description:
       "Develop project management skills and learn Agile and Scrum methodologies.",
@@ -81,6 +89,7 @@ const courses = [
     category: "Business & Management",
   },
   {
+    id: 10,
     title: "Business Analytics",
     description:
       "Analyze business data and make data-driven decisions using modern tools.",
